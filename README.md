@@ -19,3 +19,15 @@
 - <img src="https://raw.githubusercontent.com/AKmahim/Dhakai_Biriyani/main/dhakai_biriyani_admin_category.png">
 - <img src="https://raw.githubusercontent.com/AKmahim/Dhakai_Biriyani/main/dhakai_biriyani_admin_order_details.png">
 - <img src="https://raw.githubusercontent.com/AKmahim/Dhakai_Biriyani/main/dhakai_biriyani.png">
+
+
+### To Run the project follow this step
+```bash
+ git clone <my-cool-project>
+ composer install
+ cp .env.example .env
+ php artisan key:generate
+ php artisan migrate
+ php artisan serve
+
+```
